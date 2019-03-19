@@ -1,5 +1,5 @@
 require 'pry'
-def Artist
+class Artist
 attr_accessor :name, :song
 
 @@all = []
