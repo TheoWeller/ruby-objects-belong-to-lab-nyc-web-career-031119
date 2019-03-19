@@ -1,11 +1,16 @@
+
 def Artist
-attr_accessor :name
+attr_accessor :name, :song
 
 @@all = []
 
 def initialize
-  @name = "Beyonce"
+  @name = name
   @all << self
+end
+
+def self.all
+  @@all
 end
 
 end
