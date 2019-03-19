@@ -4,7 +4,7 @@ attr_accessor :name, :song
 
 @@all = []
 
-def initialize
+def initialize(name)
   @name = name
   @all << self
 end
