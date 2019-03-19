@@ -1,4 +1,4 @@
-
+require 'pry'
 def Artist
 attr_accessor :name, :song
 
@@ -12,5 +12,6 @@ end
 def self.all
   @@all
 end
+binding.pry
 
 end
